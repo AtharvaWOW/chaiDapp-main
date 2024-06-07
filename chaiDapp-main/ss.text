@@ -1,0 +1,14 @@
+/**
+read data you can read balance of an address:
+
+async function readBalance(address){
+
+    const balance = await contract.balanceOf(address);
+    console.log(address)
+
+}
+
+const addressToRead = ""
+readBalance(addressToRead).catch(error)
+
+*/
